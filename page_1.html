@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Heitor C.2</title>
+		<script src="https://kit.fontawesome.com/92ba4783e6.js" crossorigin="anonymous"></script>
+	<style>
+		*{background-color:#aaeeff;
+		  font-family:sans-serif;		
+		}
+		p{font-weight:bold;	 
+		font-size: 14px;
+		}
+		#button{
+		background-color: #11ddff;
+		font-weight: bold;
+		font-size: 15px;
+		}
+	</style>
+	</head>
+	<body>
+	<h1 id="head" style="text-align:center; background-color:#1199ff; box-shadow:0px 0px 6px black">Cadastro de Clientes</h1><br>
+	<p style="font-weight:bold; font-size:16px">Preencha os campos abaixo:</p>
+	<form>
+		<label> Nome: </label>
+		<input type="text" name="nome" id="nome"> <br>
+		<label> Email:</label>
+		<input type="text" name="email" id="email"><br><br>
+		<input type="submit" onclick=Enviar() onmouseenter=Mouse() onmouseleave=Leave() id="but">
+	</form>
+	<script>
+		function Enviar(){
+		var nome = document.getElementById("nome");
+		var email = document.getElementById("email");
+		window.document.write(nome.value + "<br>");
+		window.document.write(email.value);
+		}
+		function Mouse(){
+			var but = document.getElementById("but");
+			but.style.background = "red";
+		}
+		function Leave(){
+			var but2 = document.getElementById("but");
+			but2.style.background = "#aaeeff";
+		}
+	</script>
+	<br>
+	<p style="text-align:right">
+	<a href="index.html" class="fa-solid fa-house" style=font-size:27px></a>
+	</p>
+	<div style="background-color:#1199ff; box-shadow:0px 0px 6px black"><br></div>
+	</body>
+</html>
