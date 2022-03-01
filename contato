@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/92ba4783e6.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <style>
+        *{
+            background-color: #ddeeff;
+        }
+        header{
+            background-color: #1188ff;
+            text-align:center;
+            font-size:43px;
+        }
+        .listas{
+            margin-top:6px;
+        }
+    </style>
+</head>
+<body>
+    <header>+Mais Saber</header>
+    <div>
+        <ul style="font-size: 18px;"><a style="font-size:27px; margin-left:-41px; font-weight:bold">CONTATOS:</a>
+            <li class="listas">Telefone: (77) 99923-4467</li>
+            <li class="listas">Email: maissaber@gmail.com</li>
+            <li class="listas">Endereço: Rua D.PedroI, Número 7, Aratu</li>
+        </ul> 
+        <p style="margin-top: 65px; color:blue"><h3>Envie suas dúvidas para a +Saber</h3></p>
+       <form style="margin-top:37px">
+           <label>Endereco de Email</label>
+           <input type="email"><br>
+           <label>Nome</label>
+           <input type="text" style="margin-left:83px"><br><br><br>
+           <label> Mensagem:</label>
+           <input type="text" style="width: 500px; height:120px">
+           <input style="font-size: 21px; margin-top:12px; display:block" type="submit" id="btncontato">
+       </form>
+    </div>
+    <a href="index.html" class="fa-solid fa-house" style="font-size:29px; text-align:right; width:100%; margin-top:50px "></a>
+</body>
+</html>
