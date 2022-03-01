@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="https://kit.fontawesome.com/92ba4783e6.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color:#aaeeff;
+            height: max-content;
+        }
+    </style>
+</head>
+<body>
+    <header style="text-align:center; background-color:#1188ff; font-size:43px">+Saber</header>
+    <p style="font-weight: bolder; font-size:32px;">Bem-Vindo à +Saber!</p>
+    <div style="font-size:20px">
+    A +Saber nasceu como empresa estruturada em 2017, com um modelo familiar, buscando desde o
+    seu início de sua existencia dar atendimento personalizado e de qualidade para seus alunos.
+    Os atendimentos oferecidos vão do 2° Ano do ensino fundamental até o 3°Ano do ensino médio.
+    É oferecido acompanhamento nas disciplinas:
+    </div>
+    <ul style="float:left; width:50%; margin-right:5px; font-weight: bold;  font-size:20px">
+        <li margin>Português</li>
+        <lli>Redação</lli>
+        <li>Matemática</li>
+        <li>Geografia</li>
+        <li>História</li>
+        <li>Inglês</li>
+    </ul>
+    <img style="width:140px; float:left; clear:right" src="maissaber.jpeg">
+    <div style="font-size: 20px; float: right;">
+        O atendimento é feito em grupos de no máximo 3 alunos, sempre no mesmo ano escolar,
+        de forma a garantir que os estudantes tenham atendimento personalizado. As aulas
+        têm duração de 1h:30min, saiba mostrados na aba HORÁRIOS.
+    </div>
+    <a style="margin:auto auto auto 95%;  font-size:27px; text-align:right; float:left;"; href="index.html" class="fa-solid fa-house"></a>
+</body>
+</html>
