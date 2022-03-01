@@ -63,10 +63,10 @@
 	<body>
 		<p id="navbar" style="background-color:#1188ff; font-size:43px; text-align: center; margin-right: -0px; margin-bottom:5px; margin-top:3px">+ Mais Saber</p>
 	    <nav style="margin-top:-9px">
-			<a href="page_1.html">Sobre a +Saber</a>   
-			<a href="page_1.html">Equipe</a>   
-			<a href="page_1.html">Horários</a>   
-			<a href="page_1.html">Contato</a>
+			<a href="sobre.html">Sobre a +Saber</a>   
+			<a href="equipe_1.html">Equipe</a>   
+			<a href="horario.html">Horários</a>   
+			<a href="contato.html">Contato</a>
 		</nav>
 		</br>
 		<div style="margin-right:50px" class="columns">Bem-vindo à Mais Saber. Nossa missão é garantir 
